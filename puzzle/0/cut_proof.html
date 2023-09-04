@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Cut Proof - 100</title>
+<link rel="stylesheet" media="all" href="sprite_p.css">
+<style>
+
+body {
+background: black;
+color: white;
+}
+.container {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+.p {
+transition: opacity linear 0.5s;
+background-image: none;
+}
+input[name=assembled]:checked + .container .p {
+position: absolute;
+}
+.p.is-highlight,
+.p:hover,
+.p:active {
+opacity: 0;
+}
+
+
+</style>
+</head>
+<body>
+<p>
+Piece count: 48<br>
+<button>
+<label for="assembled">Toggle Assembled State</label>
+</button>
+</p>
+
+<!-- All the piece div elements -->
+<input type="checkbox" checked id="assembled" name="assembled">
+<div class="container">
+<div id='p-0' class='p pc-0' style='left:0px;top:1522px;'><img class='p-img' src='raster/0.png?1688235665' width='658' height='707'></div><div id='p-1' class='p pc-1' style='left:3745px;top:1505px;'><img class='p-img' src='raster/1.png?1688235665' width='633' height='759'></div><div id='p-2' class='p pc-2' style='left:3551px;top:513px;'><img class='p-img' src='raster/2.png?1688235665' width='828' height='758'></div><div id='p-3' class='p pc-3' style='left:4176px;top:1663px;'><img class='p-img' src='raster/3.png?1688235665' width='824' height='564'></div><div id='p-4' class='p pc-4' style='left:3567px;top:2601px;'><img class='p-img' src='raster/4.png?1688235665' width='854' height='731'></div><div id='p-5' class='p pc-5' style='left:2960px;top:1662px;'><img class='p-img' src='raster/5.png?1688235665' width='991' height='723'></div><div id='p-6' class='p pc-6' style='left:0px;top:2065px;'><img class='p-img' src='raster/6.png?1688235665' width='641' height='858'></div><div id='p-7' class='p pc-7' style='left:3070px;top:2219px;'><img class='p-img' src='raster/7.png?1688235665' width='723' height='718'></div><div id='p-8' class='p pc-8' style='left:0px;top:2773px;'><img class='p-img' src='raster/8.png?1688235665' width='675' height='559'></div><div id='p-9' class='p pc-9' style='left:597px;top:549px;'><img class='p-img' src='raster/9.png?1688235665' width='848' height='611'></div><div id='p-10' class='p pc-10' style='left:1849px;top:1651px;'><img class='p-img' src='raster/10.png?1688235665' width='825' height='739'></div><div id='p-11' class='p pc-11' style='left:2289px;top:551px;'><img class='p-img' src='raster/11.png?1688235665' width='998' height='746'></div><div id='p-12' class='p pc-12' style='left:3691px;top:1104px;'><img class='p-img' src='raster/12.png?1688235665' width='687' height='574'></div><div id='p-13' class='p pc-13' style='left:1871px;top:0px;'><img class='p-img' src='raster/13.png?1688235665' width='641' height='560'></div><div id='p-14' class='p pc-14' style='left:4213px;top:2590px;'><img class='p-img' src='raster/14.png?1688235665' width='787' height='743'></div><div id='p-15' class='p pc-15' style='left:1247px;top:978px;'><img class='p-img' src='raster/15.png?1688235665' width='634' height='835'></div><div id='p-16' class='p pc-16' style='left:0px;top:541px;'><img class='p-img' src='raster/16.png?1688235665' width='821' height='727'></div><div id='p-17' class='p pc-17' style='left:0px;top:0px;'><img class='p-img' src='raster/17.png?1688235665' width='630' height='719'></div><div id='p-18' class='p pc-18' style='left:424px;top:2088px;'><img class='p-img' src='raster/18.png?1688235665' width='1009' height='847'></div><div id='p-19' class='p pc-19' style='left:3121px;top:374px;'><img class='p-img' src='raster/19.png?1688235665' width='657' height='758'></div><div id='p-20' class='p pc-20' style='left:2462px;top:1099px;'><img class='p-img' src='raster/20.png?1688235665' width='826' height='579'></div><div id='p-21' class='p pc-21' style='left:0px;top:1105px;'><img class='p-img' src='raster/21.png?1688235665' width='629' height='564'></div><div id='p-22' class='p pc-22' style='left:1723px;top:2213px;'><img class='p-img' src='raster/22.png?1688235665' width='788' height='578'></div><div id='p-23' class='p pc-23' style='left:1217px;top:0px;'><img class='p-img' src='raster/23.png?1688235665' width='856' height='559'></div><div id='p-24' class='p pc-24' style='left:1045px;top:1663px;'><img class='p-img' src='raster/24.png?1688235665' width='979' height='567'></div><div id='p-25' class='p pc-25' style='left:2491px;top:1503px;'><img class='p-img' src='raster/25.png?1688235665' width='642' height='722'></div><div id='p-26' class='p pc-26' style='left:3583px;top:2056px;'><img class='p-img' src='raster/26.png?1688235665' width='979' height='730'></div><div id='p-27' class='p pc-27' style='left:464px;top:0px;'><img class='p-img' src='raster/27.png?1688235665' width='993' height='692'></div><div id='p-28' class='p pc-28' style='left:2487px;top:2775px;'><img class='p-img' src='raster/28.png?1688235665' width='660' height='557'></div><div id='p-29' class='p pc-29' style='left:1690px;top:375px;'><img class='p-img' src='raster/29.png?1688235665' width='816' height='744'></div><div id='p-30' class='p pc-30' style='left:412px;top:1510px;'><img class='p-img' src='raster/30.png?1688235665' width='878' height='716'></div><div id='p-31' class='p pc-31' style='left:460px;top:2775px;'><img class='p-img' src='raster/31.png?1688235665' width='797' height='557'></div><div id='p-32' class='p pc-32' style='left:1247px;top:414px;'><img class='p-img' src='raster/32.png?1688235665' width='660' height='705'></div><div id='p-33' class='p pc-33' style='left:1679px;top:2631px;'><img class='p-img' src='raster/33.png?1688235665' width='993' height='701'></div><div id='p-34' class='p pc-34' style='left:4208px;top:944px;'><img class='p-img' src='raster/34.png?1688235665' width='792' height='892'></div><div id='p-35' class='p pc-35' style='left:2312px;top:2063px;'><img class='p-img' src='raster/35.png?1688235665' width='967' height='857'></div><div id='p-36' class='p pc-36' style='left:3115px;top:0px;'><img class='p-img' src='raster/36.png?1688235665' width='652' height='593'></div><div id='p-37' class='p pc-37' style='left:3072px;top:941px;'><img class='p-img' src='raster/37.png?1688235665' width='830' height='908'></div><div id='p-38' class='p pc-38' style='left:1246px;top:2057px;'><img class='p-img' src='raster/38.png?1688235665' width='670' height='882'></div><div id='p-39' class='p pc-39' style='left:4202px;top:540px;'><img class='p-img' src='raster/39.png?1688235665' width='798' height='591'></div><div id='p-40' class='p pc-40' style='left:2334px;top:0px;'><img class='p-img' src='raster/40.png?1688235665' width='961' height='698'></div><div id='p-41' class='p pc-41' style='left:3591px;top:0px;'><img class='p-img' src='raster/41.png?1688235665' width='949' height='697'></div><div id='p-42' class='p pc-42' style='left:4371px;top:2084px;'><img class='p-img' src='raster/42.png?1688235665' width='629' height='699'></div><div id='p-43' class='p pc-43' style='left:1083px;top:2774px;'><img class='p-img' src='raster/43.png?1688235665' width='797' height='558'></div><div id='p-44' class='p pc-44' style='left:4359px;top:0px;'><img class='p-img' src='raster/44.png?1688235665' width='641' height='742'></div><div id='p-45' class='p pc-45' style='left:436px;top:967px;'><img class='p-img' src='raster/45.png?1688235665' width='969' height='707'></div><div id='p-46' class='p pc-46' style='left:1709px;top:955px;'><img class='p-img' src='raster/46.png?1688235665' width='983' height='850'></div><div id='p-47' class='p pc-47' style='left:2941px;top:2766px;'><img class='p-img' src='raster/47.png?1688235665' width='813' height='566'></div>
+</div>
+
+<script>
+/* Toggle the adjacent pieces next to the one that is clicked. */
+fetch("/adjacent.json")
+.then(response => response.json())
+.then(adjacent => {
+    document.addEventListener('click', (event) => {
+        for (let target = event.target; target && target != this; target = target.parentNode) {
+            if (target.classList && target.classList.contains('p')) {
+                const $piece = target;
+                const piece_id = $piece.getAttribute("id").replace("p-", "");
+                const adjacent_piece_ids = adjacent[piece_id];
+                adjacent_piece_ids
+                    .map(pc => {return document.getElementById("p-"+pc)})
+                    .map(el => el.classList.toggle('is-highlight'))
+                break;
+            }
+        }
+    }, false);
+});
+</script>
+
+</body>
+</html>
